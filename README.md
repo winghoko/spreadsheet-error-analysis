@@ -36,6 +36,6 @@ In both Excel and GoogleSheet, the least square fit can be found using the `LINE
 
 Unfortunately, neither Excel nor GoogleSheet provides a function for weighed least square fit. This is where the `WLINEST` script (`.vba` for Excel and `.gs` for GoogleSheet) comes in. It defines the user function `WLINEST()` that has a similar interface as the built-in `LINEST()` function.
 
-Both scripts also provide some form of help message for the `WLINEST()` function. In Excel this is accessed through the `WLINEST_help()` function. On Google the tooltip will automatically provide such information as you type the function. In addition, if `errorBarChart.gs` is loaded a help message can also be accessed from the `ErrorAnalysis` menu.
+Both scripts also provide some form of help message for the `WLINEST()` function. In Excel this is accessed through the `WLINEST_help()` function. On GoogleSheet the tooltip will automatically provide such information as you type the function. In addition, if `errorBarChart.gs` is loaded a help message can also be accessed from the `ErrorAnalysis` menu.
 
 Furthermore, the two files with the scripts pre-loaded ([Excel](https://docs.google.com/spreadsheets/d/1EqxN7xtYww0SaZHJSzJkBYhbNKfUlJEP/) and [GoogleSheet](https://docs.google.com/spreadsheets/d/1kUjKvUM2l_IY2ujVOliPjyVWOOYWmDuccRAWg9UFzRg/)) are themselves filled with mock data that illustrate the use of the `WLINEST()` function.
