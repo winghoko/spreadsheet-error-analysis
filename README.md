@@ -1,6 +1,6 @@
 # spreadsheet-error-analysis
 
-Scripts for computing weighted linear least square fit in both Excel and GoogleSheet. In addition, for GoogleSheet, provide utilities to plot non-uniform error bars.
+Tools for dealing with data with non-uniform error (a.k.a. uncertainty). Include scripts for computing weighted linear least square fit in both Excel and GoogleSheet. In addition, for GoogleSheet, provide utilities to plot non-uniform error bars. 
 
 ## Adding the `.vba` script to Excel file
 
