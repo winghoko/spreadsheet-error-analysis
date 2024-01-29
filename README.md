@@ -32,7 +32,7 @@ The `errorBarChart.gs` script is designed to automate this process. The script c
 
 When the uncertainty of a data series is non-constant, a proper construction of trend line needs to weight different data point differently. Intuitively, the deviation of a data point from its trend line value should be compared relative to the size of the uncertainty, and the trend line is the line for which the sum of deviation thus weighed is minimized. More technically, a _**weighed** least square fit_, as opposed to linear least square fit, is required in such scenario.
 
-In both Excel and GoogleSheet, the least square fit can be found using the `LINEST()` function. The function gives you the slope and intercept of the trend line, and optional their uncertainties as well as additional statistical information.
+In both Excel and GoogleSheet, the least square fit can be found using the `LINEST()` function. The function gives you the slope and intercept of the trend line, and optionally their uncertainties as well as additional statistical information.
 
 Unfortunately, neither Excel nor GoogleSheet provides a function for weighed least square fit. This is where the `WLINEST` script (`.vba` for Excel and `.gs` for GoogleSheet) comes in. It defines the user function `WLINEST()` that has a similar interface as the built-in `LINEST()` function.
 
